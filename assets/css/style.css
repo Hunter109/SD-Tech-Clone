@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: #1e6087;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-contact a {
+    font-size: 17px;
+    color: #ffff;
+}
+
+.header-contact .number,
+.header-contact .mail {
+    margin: 0 20px 0 20px;
+}
+
+.header-contact .number i,
+.header-contact .mail i {
+    margin: 0 5px 0 0;
+}
+
+.header-support button {
+    padding: 8px 20px;
+    color: #1e6087;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: transform 0.4s ease-in;
+    border: none;
+}
+
+.header-support button:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+@media only screen and (max-width:420px) {
+    header {
+        display: none;
+    }
+
+}
+
+
+/* nav style start here  */
+.navbar .nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid red;
+    position: relative;
+
+}
+
+.navbar .nav-links li a {
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+
+.service-list {
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: 27vw;
+    background-color: black;
+    border-top: 2px solid #1e6087;
+}
+
+.service-list li {
+    margin: 20px;
+}
+
+.service-list li a {
+    color: white;
+}
+
+.nav-links>li:nth-child(2):hover .service-list {
+    display: block;
+    /* Show the dropdown when hovering over the "Services" item */
+}
