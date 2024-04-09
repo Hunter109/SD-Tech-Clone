@@ -76,7 +76,6 @@ header {
     align-items: center;
     gap: 10px;
     padding: 20px;
-    border: 2px solid red;
     position: relative;
 
 }
@@ -90,11 +89,16 @@ header {
 
 .service-list {
     display: none;
+    width: 15%;
     position: absolute;
     top: 70%;
     left: 27vw;
-    background-color: black;
-    border-top: 2px solid #1e6087;
+    border-top: 3px solid #1e6087;
+    /* background-color: black; */
+    background-color: #ffff;
+
+
+
 }
 
 .service-list li {
@@ -102,10 +106,31 @@ header {
 }
 
 .service-list li a {
-    color: white;
+    /* color: white; */
+    transition: all 0.5s ease-in-out;
+
+
 }
 
-.nav-links>li:nth-child(2):hover .service-list {
+.service-list li a:hover {
+    color: #1e6087;
+    padding-left: 10px;
+}
+
+/* .nav-links>li:nth-child(2):hover .service-list {
     display: block;
-    /* Show the dropdown when hovering over the "Services" item */
+} */
+
+.nav-links .hunter:hover .service-list {
+    display: block;
+
+}
+
+.main-banner-container {
+    height: 70vh;
+    background-image: url("https://sdtechinc.com/wp-content/uploads/2022/01/banner-sd.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
 }
