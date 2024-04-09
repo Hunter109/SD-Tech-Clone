@@ -31,5 +31,5 @@ You can see a live demo of this project [here](https://hunter109.github.io/SD-Te
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone <https://github.com/Hunter109/SD-Tech-Clone.git>
+   git clone https://github.com/Hunter109/SD-Tech-Clone.git
    ```
