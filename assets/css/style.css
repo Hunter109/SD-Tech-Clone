@@ -721,7 +721,7 @@ header {
 
 }
 
-.footer-container {
+footer .footer-container {
     background-color: #dfdfdf;
     display: flex;
     justify-content: space-between;
@@ -729,11 +729,11 @@ header {
     padding: 40px 120px;
 }
 
-.footer-container .left-part img {
+footer .footer-container .left-part img {
     height: 4rem;
 }
 
-.footer-container .left-part p {
+footer .footer-container .left-part p {
     font-size: 20px;
     font-weight: 100;
     width: 20rem;
@@ -741,19 +741,19 @@ header {
 
 }
 
-.footer-container .left-part .first {
+footer .footer-container .left-part .first {
     font-weight: 600;
     width: 20rem;
     margin: 20px 0;
 
 }
 
-.footer-container .right-part h3 {
+footer .footer-container .right-part h3 {
     font-size: 26px;
     padding: 10px 0;
 }
 
-.footer-container .right-part div {
+footer .footer-container .right-part div {
     padding: 10px 0;
     font-size: 18px;
 }
@@ -775,11 +775,6 @@ footer .copy-right {
 
     .footer-container .left-part .first {
         margin: 20px 0;
-
-    }
-
-    footer .copy-right {
-        width: 100vw;
 
     }
 
