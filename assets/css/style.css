@@ -116,7 +116,7 @@ header {
 
 @media only screen and (max-width: 428px) {
     .navbar .nav-links {
-        overflow-x: auto;
+        overflow-x: scroll;
     }
 
     .nav-links li {
@@ -703,8 +703,84 @@ header {
 }
 
 @media only screen and (max-width:428px) {
-    .partner-list {
+    .our-partner .partner-list {
         flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width:429px)and (max-width:834px) {
+    .our-partner .partner-list .row-1 img {
+        height: 3rem;
+
+    }
+
+    .our-partner .partner-list .row-1:nth-child(2) img {
+        height: 1.5rem;
+    }
+
+}
+
+.footer-container {
+    background-color: #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 120px;
+}
+
+.footer-container .left-part img {
+    height: 4rem;
+}
+
+.footer-container .left-part p {
+    font-size: 20px;
+    font-weight: 100;
+    width: 20rem;
+
+
+}
+
+.footer-container .left-part .first {
+    font-weight: 600;
+    width: 20rem;
+    margin: 20px 0;
+
+}
+
+.footer-container .right-part h3 {
+    font-size: 26px;
+    padding: 10px 0;
+}
+
+.footer-container .right-part div {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+footer .copy-right {
+    background-color: #d32527;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+@media only screen and (max-width:428px) {
+    .footer-container {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 10px;
+    }
+
+    .footer-container .left-part .first {
+        margin: 20px 0;
+
+    }
+
+    footer .copy-right {
+        width: 100vw;
+
     }
 
 }
