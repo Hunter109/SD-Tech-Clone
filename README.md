@@ -2,7 +2,7 @@
 
 ![SD Tech Logo](https://sdtechinc.com/wp-content/uploads/2022/01/footer_logo.png)
 
-This is a clone of the SD Tech website created for practice with HTML, CSS, and possibly other technologies.
+This is a clone of the SD Tech website created for practice with HTML, CSS.
 
 ## Table of Contents
 
