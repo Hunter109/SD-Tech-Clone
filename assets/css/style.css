@@ -62,9 +62,12 @@ header {
 }
 
 @media only screen and (max-width: 428px) {
+
+    /* header  */
     header {
         display: none;
     }
+
 }
 
 /* nav style start here  */
@@ -606,7 +609,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 90vh;
 }
 
 .contact-us h3 {
@@ -772,6 +775,10 @@ footer .copy-right {
     footer .footer-container {
         flex-direction: column;
         padding: 40px 20px;
+    }
+
+    footer .footer-container .right-part h3 {
+        font-size: 20px;
     }
 
 }
