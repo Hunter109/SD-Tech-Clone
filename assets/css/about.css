@@ -18,6 +18,7 @@
     background-color: rgba(0, 0, 0, 0.59);
 }
 
+.solution-container .about-us h1,
 .about-container .about-us h1,
 .contact-us .about-us h2 {
     font-size: 48px;
@@ -27,6 +28,7 @@
     font-weight: 900;
 }
 
+.solution-container .about-us p,
 .about-container .about-us p,
 .contact-us .about-us p {
     font-size: 20px;
@@ -36,12 +38,14 @@
     letter-spacing: 5px;
 }
 
+.solution-container .about-us div,
 .about-container .about-us div,
 .contact-us .about-us div {
     text-align: center;
     margin: 40px auto;
 }
 
+.solution-container .about-us a,
 .about-container .about-us div a,
 .contact-us .about-us div a {
     background-color: white;
@@ -50,11 +54,16 @@
     font-weight: 600;
 }
 
-.about-container .about-us div a:hover {
+.contact-us .about-us div a:hover,
+.about-container .about-us div a:hover,
+.solution-container .about-us div a:hover {
     background-color: transparent;
     color: white;
     border: 2px solid white;
 }
+
+
+
 
 /* who we are style  */
 .who-container {
@@ -104,7 +113,7 @@
 /* contact us image with text  */
 .contact-us {
     background-image: url("https://sdtechinc.com/wp-content/uploads/2022/01/touch.jpg");
-    height: 40vh;
+    height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,24 +122,79 @@
     align-items: center;
 }
 
+.contact-us a:hover {}
+
+
+
+.solution-container {
+    background-image: url(https://sdtechinc.com/wp-content/uploads/2022/01/zaptech-banner.jpg);
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.business-solution {
+    text-align: center;
+    margin: 80px auto;
+}
+
+.business-solution h2 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+    color: #216e9b;
+    margin: 50px auto;
+
+}
+
+.business-solution a {
+    text-align: center;
+    color: white;
+    background-color: #d32527;
+    padding: 15px 50px;
+
+}
+
+.business-solution a:hover {
+    color: #d32527;
+    background-color: white;
+    border: 2px solid #d32527;
+
+
+}
+
 /* media query  */
 @media only screen and (max-width: 428px) {
-    /* imag with text responsivness */
 
-    .about-container .about-us h1 {
+    /* imag with text responsivness */
+    .contact-us .about-us h2,
+    .about-container .about-us h1,
+    .solution-container .about-us h1 {
         font-size: 28px;
         margin: 15px auto;
         font-weight: 700;
     }
 
-    .about-container .about-us p {
+    .contact-us .about-us p,
+
+    .about-container .about-us p,
+    .solution-container .about-us p {
         font-size: 16px;
         text-align: center;
         color: #9ca0a9;
         margin: 20px auto;
     }
 
-    .about-container .about-us div a {
+    .contact-us .about-us div a,
+
+    .about-container .about-us div a,
+    .solution-container .about-us div a {
         padding: 10px 30px;
     }
 
@@ -159,6 +223,24 @@
 
     .who-container .second-info .right img {
         height: 10rem;
+    }
+
+
+    .business-solution {
+        text-align: center;
+        margin: 80px auto;
+    }
+
+    .business-solution h2 {
+        font-size: 28px;
+        margin: 40px auto;
+
+    }
+
+    .business-solution a {
+
+        padding: 15px 40px;
+
     }
 }
 
